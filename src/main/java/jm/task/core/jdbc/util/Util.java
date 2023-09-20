@@ -5,10 +5,11 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Util {
+
     private static final String Driver = "com.mysql.cj.jdbc.Driver";
-    private static final String URL = "jdbc:mysql://localhost:3306/mydbtest";
-    private static final String USERNAME = "root1";
-    private static final String PASSWORD = "root";
+    private static final String URL = "jdbc:mysql://localhost:3306/my_db";
+    private static final String USERNAME = "root";
+    private static final String PASSWORD = "my179sql";
 
     public Connection getConnection() {
         Connection connection = null;
